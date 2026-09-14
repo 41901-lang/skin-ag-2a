@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background: #202020;
+}
+
+header{
+    width: 100%;
+    height: 14vh;
+    float: left;
+    background: #111;
+}
+
+.jogo{
+    width: 100%;
+    height: 38vh;
+    float: left;
+    padding: 1%;
+}
+
+.nome-jogo{
+    width: 100%;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+}
+
+#cs2{
+    background: #315b78;
+}
+
+#valorant{
+    background: #8b3d68;
+}
+
+.item{
+    width: 18%;
+    height: 25vh;
+    float: left;
+    margin-top: 15px;
+    margin-left: 1.5%;
+    background: #dedede;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.item h3{
+    color: #222;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.item img{
+    width: 100%;
+    height: 18vh;
+    object-fit: contain;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    float: left;
+    background: #111;
+}
